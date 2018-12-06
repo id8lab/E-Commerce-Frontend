@@ -19,9 +19,16 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/ng-shopping-cart/styles/css/ng-shopping-cart.css",
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "assets/fontawesome-free-5.5.0-web/css/all.min.css",
+        "assets/fontawesome-free-5.5.0-web/scss/fontawesome.scss",
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
