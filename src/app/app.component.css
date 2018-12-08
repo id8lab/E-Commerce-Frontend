@@ -1,0 +1,12 @@
+@media (max-width: 500px) {
+    #main-content {
+        width: 90%; 
+        margin-left: 12%;
+    }
+}
+
+@media (min-width: 501px) {
+    #main-content {
+        width: 80%;
+    }
+}
