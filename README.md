@@ -21,10 +21,10 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Deploy to https://mvpclub.github.io/E-Commerce-Frontend/
 
-Run `npm i -g angular-cli-ghpages` to install that module
-Run `ng build --prod --base-href "https://mvpclub.github.io/E-Commerce-Frontend/"`
-Publish the local dist folder by running `ngh` command
-Latest code can be seen in this github.io site: `https://mvpclub.github.io/E-Commerce-Frontend/`
+* Run `npm i -g angular-cli-ghpages` to install that module
+* Run `ng build --prod --base-href "https://mvpclub.github.io/E-Commerce-Frontend/"`
+* Publish the local dist folder by running `ngh` command
+* Latest code can be seen in this github.io site: `https://mvpclub.github.io/E-Commerce-Frontend/`
 
 
 ## Running unit tests
