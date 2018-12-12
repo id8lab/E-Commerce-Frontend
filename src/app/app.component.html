@@ -13,8 +13,8 @@
 <div style="clear: both;"></div>
 <div id="main-content" class="container">
 
-    <!-- <div class="row"> -->
-      <!-- <add-to-cart [item]="item" [quantity]="1" (added)="itemAdded($event)">
+  <!-- <div class="row"> -->
+  <!-- <add-to-cart [item]="item" [quantity]="1" (added)="itemAdded($event)">
       </add-to-cart>
       
       <cart-view [images]="false" [display]="'responsive-table'">
@@ -27,10 +27,10 @@
       
       <cart-checkout [service]="'http'" settings="settings">
       </cart-checkout> -->
-    <!-- </div> -->
-      <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
-              <div class="card">
+  <!-- </div> -->
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+      <!-- <div class="card">
                   <img class="card-img-top" src="http://placehold.it/360x360" alt="Card image cap">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -45,106 +45,289 @@
                     <a href="#" class="card-link">Card link</a>
                     <a href="#" class="card-link">Another link</a>
                   </div>
-                </div>
-          </div>
-          
-          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
-              <div class="card">
-                  <img class="card-img-top" src="http://placehold.it/360x360" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                  </ul>
-                  <div class="card-body">
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                  </div>
-                </div>
-          </div>
+                </div> -->
 
-          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
-              <div class="card">
-                  <img class="card-img-top" src="http://placehold.it/360x360" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                  </ul>
-                  <div class="card-body">
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                  </div>
-                </div>
-          </div>
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="http://placehold.it/360x360">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Book Title<i class="material-icons right">more_vert</i></span>
+          <p>Brief Book Description ...</p>
 
-          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
-              <div class="card">
-                  <img class="card-img-top" src="http://placehold.it/360x360" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                  </ul>
-                  <div class="card-body">
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                  </div>
-                </div>
-          </div>
+          <div class="d-inline-block mt-4 font-italic price-font">$10.00</div>
 
-          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
-              <div class="card">
-                  <img class="card-img-top" src="http://placehold.it/360x360" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                  </ul>
-                  <div class="card-body">
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                  </div>
-                </div>
-          </div>
+          <button type="button" class="btn btn-success mt-3 card-btn-in-breif">
+            Add to cart&nbsp;
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Book Title<i class="material-icons right">close</i></span>
+          <p>Detail Book description will goes here!!!!</p>
 
-          <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
-              <div class="card">
-                  <img class="card-img-top" src="http://placehold.it/360x360" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Cras justo odio</li>
-                    <li class="list-group-item">Dapibus ac facilisis in</li>
-                    <li class="list-group-item">Vestibulum at eros</li>
-                  </ul>
-                  <div class="card-body">
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                  </div>
-                </div>
-          </div>
+          <div class="d-inline-block font-italic price-font price-in-detail">$10.00</div>
+
+          <button type="button" class="btn btn-success mt-2 card-btn-in-details">
+            Add to cart&nbsp;
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+        </div>
       </div>
-    
 
-      
+    </div>
 
-</div>
+    <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="http://placehold.it/360x360">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Book Title<i class="material-icons right">more_vert</i></span>
+          <p>Brief Book Description ...</p>
+
+          <div class="d-inline-block mt-4 font-italic price-font">$10.00</div>
+
+          <button type="button" class="btn btn-success mt-3 card-btn-in-breif">
+            Add to cart&nbsp;
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Book Title<i class="material-icons right">close</i></span>
+          <p>Detail Book description will goes here!!!!</p>
+
+          <div class="d-inline-block font-italic price-font price-in-detail">$10.00</div>
+
+          <button type="button" class="btn btn-success mt-2 card-btn-in-details">
+            Add to cart&nbsp;
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="http://placehold.it/360x360">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Book Title<i class="material-icons right">more_vert</i></span>
+          <p>Brief Book Description ...</p>
+
+          <div class="d-inline-block mt-4 font-italic price-font">$10.00</div>
+
+          <button type="button" class="btn btn-success mt-3 card-btn-in-breif">
+            Add to cart&nbsp;
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Book Title<i class="material-icons right">close</i></span>
+          <p>Detail Book description will goes here!!!!</p>
+
+          <div class="d-inline-block font-italic price-font price-in-detail">$10.00</div>
+
+          <button type="button" class="btn btn-success mt-2 card-btn-in-details">
+            Add to cart&nbsp;
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="http://placehold.it/360x360">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Book Title<i class="material-icons right">more_vert</i></span>
+          <p>Brief Book Description ...</p>
+
+          <div class="d-inline-block mt-4 font-italic price-font">$10.00</div>
+
+          <button type="button" class="btn btn-success mt-3 card-btn-in-breif">
+            Add to cart&nbsp;
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Book Title<i class="material-icons right">close</i></span>
+          <p>Detail Book description will goes here!!!!</p>
+
+          <div class="d-inline-block font-italic price-font price-in-detail">$10.00</div>
+
+          <button type="button" class="btn btn-success mt-2 card-btn-in-details">
+            Add to cart&nbsp;
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="http://placehold.it/360x360">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Book Title<i class="material-icons right">more_vert</i></span>
+          <p>Brief Book Description ...</p>
+
+          <div class="d-inline-block mt-4 font-italic price-font">$10.00</div>
+
+          <button type="button" class="btn btn-success mt-3 card-btn-in-breif">
+            Add to cart&nbsp;
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Book Title<i class="material-icons right">close</i></span>
+          <p>Detail Book description will goes here!!!!</p>
+
+          <div class="d-inline-block font-italic price-font price-in-detail">$10.00</div>
+
+          <button type="button" class="btn btn-success mt-2 card-btn-in-details">
+            Add to cart&nbsp;
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="http://placehold.it/360x360">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Book Title<i class="material-icons right">more_vert</i></span>
+          <p>Brief Book Description ...</p>
+
+          <div class="d-inline-block mt-4 font-italic price-font">$10.00</div>
+
+          <button type="button" class="btn btn-success mt-3 card-btn-in-breif">
+            Add to cart&nbsp;
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Book Title<i class="material-icons right">close</i></span>
+          <p>Detail Book description will goes here!!!!</p>
+
+          <div class="d-inline-block font-italic price-font price-in-detail">$10.00</div>
+
+          <button type="button" class="btn btn-success mt-2 card-btn-in-details">
+            Add to cart&nbsp;
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="http://placehold.it/360x360">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Book Title<i class="material-icons right">more_vert</i></span>
+          <p>Brief Book Description ...</p>
+
+          <div class="d-inline-block mt-4 font-italic price-font">$10.00</div>
+
+          <button type="button" class="btn btn-success mt-3 card-btn-in-breif">
+            Add to cart&nbsp;
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Book Title<i class="material-icons right">close</i></span>
+          <p>Detail Book description will goes here!!!!</p>
+
+          <div class="d-inline-block font-italic price-font price-in-detail">$10.00</div>
+
+          <button type="button" class="btn btn-success mt-2 card-btn-in-details">
+            Add to cart&nbsp;
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="http://placehold.it/360x360">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Book Title<i class="material-icons right">more_vert</i></span>
+          <p>Brief Book Description ...</p>
+
+          <div class="d-inline-block mt-4 font-italic price-font">$10.00</div>
+
+          <button type="button" class="btn btn-success mt-3 card-btn-in-breif">
+            Add to cart&nbsp;
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Book Title<i class="material-icons right">close</i></span>
+          <p>Detail Book description will goes here!!!!</p>
+
+          <div class="d-inline-block font-italic price-font price-in-detail">$10.00</div>
+
+          <button type="button" class="btn btn-success mt-2 card-btn-in-details">
+            Add to cart&nbsp;
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="http://placehold.it/360x360">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Book Title<i class="material-icons right">more_vert</i></span>
+          <p>Brief Book Description ...</p>
+
+          <div class="d-inline-block mt-4 font-italic price-font">$10.00</div>
+
+          <button type="button" class="btn btn-success mt-3 card-btn-in-breif">
+            Add to cart&nbsp;
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Book Title<i class="material-icons right">close</i></span>
+          <p>Detail Book description will goes here!!!!</p>
+
+          <div class="d-inline-block font-italic price-font price-in-detail">$10.00</div>
+
+          <button type="button" class="btn btn-success mt-2 card-btn-in-details">
+            Add to cart&nbsp;
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
